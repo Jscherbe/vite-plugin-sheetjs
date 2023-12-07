@@ -1,0 +1,19 @@
+{
+  "name": "@ulu/vite-plugin-sheetjs",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.1",
+    "vite": "^5.0.5",
+    "vue": "^3.3.10"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
