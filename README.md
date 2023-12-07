@@ -1,6 +1,6 @@
 # Vite Plugin Sheetjs
 
-Vite plugin that will parse spreadsheet files (xlsx, other spreadsheet files), and convert them to ES modules that output the data for use in applications. Apply the `file.xlsx?sheetjs` to imports to use, details below and optional name query to get only specific sheets.
+This plugin will convert spreadsheets into JSON when imported. Apply the suffix ie. `file.xlsx?sheetjs` to load as JSON, optional "name" query can be used to get only specific sheet(s). See usage details below.
 
 Note this plugin is only for transforming spreadsheet files into data, not for adding sheetjs to project, etc.
 
